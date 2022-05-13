@@ -3,150 +3,150 @@ main {
   margin: 0 auto;
 }
 
-.prose > :last-child {
+main > :last-child {
   margin-bottom: 0;
 }
-.prose > :first-child {
+main > :first-child {
   margin-top: 0;
 }
-.prose tbody td:last-child {
+main tbody td:last-child {
   padding-right: 0;
 }
-.prose tbody td:first-child {
+main tbody td:first-child {
   padding-left: 0;
 }
-.prose thead th:last-child {
+main thead th:last-child {
   padding-right: 0;
 }
-.prose thead th:first-child {
+main thead th:first-child {
   padding-left: 0;
 }
 
-.prose h4 + * {
+main h4 + * {
   margin-top: 0;
 }
-.prose h3 + * {
+main h3 + * {
   margin-top: 0;
 }
-.prose h2 + * {
+main h2 + * {
   margin-top: 0;
 }
-.prose hr + * {
+main hr + * {
   margin-top: 0;
 }
-.prose ul ul,
-.prose ul ol,
-.prose ol ul,
-.prose ol ol {
+main ul ul,
+main ul ol,
+main ol ul,
+main ol ol {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-.prose ul ul,
-.prose ul ol,
-.prose ol ul,
-.prose ol ol {
+main ul ul,
+main ul ol,
+main ol ul,
+main ol ol {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-.prose ul ul,
-.prose ul ol,
-.prose ol ul,
-.prose ol ol {
+main ul ul,
+main ul ol,
+main ol ul,
+main ol ol {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-.prose ul ul,
-.prose ul ol,
-.prose ol ul,
-.prose ol ol {
+main ul ul,
+main ul ol,
+main ol ul,
+main ol ol {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-.prose > ol > li > *:last-child {
+main > ol > li > *:last-child {
   margin-bottom: 1.25em;
 }
-.prose > ol > li > *:first-child {
+main > ol > li > *:first-child {
   margin-top: 1.25em;
 }
-.prose > ul > li > *:last-child {
+main > ul > li > *:last-child {
   margin-bottom: 1.25em;
 }
-.prose > ul > li > *:first-child {
+main > ul > li > *:first-child {
   margin-top: 1.25em;
 }
-.prose > ul > li p {
+main > ul > li p {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
-.prose li {
+main li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-.prose ul {
+main ul {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }
-.prose ol {
+main ol {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }
-.prose h3 code {
+main h3 code {
   font-size: 0.9em;
 }
-.prose h2 code {
+main h2 code {
   font-size: 0.875em;
 }
-.prose figure > * {
+main figure > * {
   margin-top: 0;
   margin-bottom: 0;
 }
-.prose figure {
+main figure {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.prose video {
+main video {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.prose img {
+main img {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.prose {
+main {
   font-size: 1rem /* 16px */;
   line-height: 1.75;
 }
-.prose p {
+main p {
   margin-top: 1.25em;
   margin-bottom: 1.25em;
 }
-.prose tbody td {
+main tbody td {
   vertical-align: top;
   padding-top: 0.5714286em;
   padding-right: 0.5714286em;
   padding-bottom: 0.5714286em;
   padding-left: 0.5714286em;
 }
-.prose tbody tr:last-child {
+main tbody tr:last-child {
   border-bottom-width: 0;
 }
-.prose tbody tr {
+main tbody tr {
   border-bottom-width: 1px;
   border-bottom-color: #e5e7eb;
 }
-.prose thead th {
+main thead th {
   vertical-align: bottom;
   padding-right: 0.5714286em;
   padding-bottom: 0.5714286em;
   padding-left: 0.5714286em;
 }
-.prose thead {
+main thead {
   color: #111827;
   font-weight: 600;
   border-bottom-width: 1px;
   border-bottom-color: #d1d5db;
 }
-.prose table {
+main table {
   width: 100%;
   table-layout: auto;
   text-align: left;
@@ -155,13 +155,13 @@ main {
   font-size: 0.875em;
   line-height: 1.7142857;
 }
-.prose pre code::after {
+main pre code::after {
   content: none;
 }
-.prose pre code::before {
+main pre code::before {
   content: none;
 }
-.prose pre code {
+main pre code {
   background-color: transparent;
   border-width: 0;
   border-radius: 0;
@@ -172,7 +172,7 @@ main {
   font-family: inherit;
   line-height: inherit;
 }
-.prose pre {
+main pre {
   color: #e5e7eb;
   background-color: #1f2937;
   overflow-x: auto;
@@ -186,34 +186,34 @@ main {
   padding-bottom: 0.8571429em;
   padding-left: 1.1428571em;
 }
-.prose a code {
+main a code {
   color: #111827;
 }
-.prose code::after {
+main code::after {
   content: "`";
 }
-.prose code::before {
+main code::before {
   content: "`";
 }
-.prose code {
+main code {
   color: #111827;
   font-weight: 600;
   font-size: 0.875em;
 }
-.prose figure figcaption {
+main figure figcaption {
   color: #6b7280;
   font-size: 0.875em;
   line-height: 1.4285714;
   margin-top: 0.8571429em;
 }
-.prose h4 {
+main h4 {
   color: #111827;
   font-weight: 600;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   line-height: 1.5;
 }
-.prose h3 {
+main h3 {
   color: #111827;
   font-weight: 600;
   font-size: 1.25em;
@@ -221,7 +221,7 @@ main {
   margin-bottom: 0.6em;
   line-height: 1.6;
 }
-.prose h2 {
+main h2 {
   color: #111827;
   font-weight: 700;
   font-size: 1.5em;
@@ -229,7 +229,7 @@ main {
   margin-bottom: 1em;
   line-height: 1.3333333;
 }
-.prose h1 {
+main h1 {
   color: #111827;
   font-weight: 800;
   font-size: 2.25em;
@@ -237,13 +237,13 @@ main {
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
 }
-.prose blockquote p:last-of-type::after {
+main blockquote p:last-of-type::after {
   content: close-quote;
 }
-.prose blockquote p:first-of-type::before {
+main blockquote p:first-of-type::before {
   content: open-quote;
 }
-.prose blockquote {
+main blockquote {
   font-weight: 500;
   font-style: italic;
   color: #111827;
@@ -254,13 +254,13 @@ main {
   margin-bottom: 1.6em;
   padding-left: 1em;
 }
-.prose hr {
+main hr {
   border-color: #e5e7eb;
   border-top-width: 1px;
   margin-top: 3em;
   margin-bottom: 3em;
 }
-.prose ul > li::before {
+main ul > li::before {
   content: "";
   position: absolute;
   background-color: #d1d5db;
@@ -270,62 +270,62 @@ main {
   top: calc(0.875em - 0.1875em);
   left: 0.25em;
 }
-.prose ul > li {
+main ul > li {
   position: relative;
   padding-left: 1.75em;
 }
-.prose ol > li::before {
+main ol > li::before {
   content: counter(list-item, var(--list-counter-style, decimal)) ".";
   position: absolute;
   font-weight: 400;
   color: #6b7280;
   left: 0;
 }
-.prose ol > li {
+main ol > li {
   position: relative;
   padding-left: 1.75em;
 }
-.prose ol[type="1"] {
+main ol[type="1"] {
   --list-counter-style: decimal;
 }
-.prose ol[type="i" s] {
+main ol[type="i" s] {
   --list-counter-style: lower-roman;
 }
-.prose ol[type="I" s] {
+main ol[type="I" s] {
   --list-counter-style: upper-roman;
 }
-.prose ol[type="i"] {
+main ol[type="i"] {
   --list-counter-style: lower-roman;
 }
-.prose ol[type="I"] {
+main ol[type="I"] {
   --list-counter-style: upper-roman;
 }
-.prose ol[type="a" s] {
+main ol[type="a" s] {
   --list-counter-style: lower-alpha;
 }
-.prose ol[type="A" s] {
+main ol[type="A" s] {
   --list-counter-style: upper-alpha;
 }
-.prose ol[type="a"] {
+main ol[type="a"] {
   --list-counter-style: lower-alpha;
 }
-.prose ol[type="A"] {
+main ol[type="A"] {
   --list-counter-style: upper-alpha;
 }
-.prose strong {
+main strong {
   color: #111827;
   font-weight: 600;
 }
-.prose a {
+main a {
   color: #111827;
   text-decoration: underline;
   font-weight: 500;
 }
-.prose {
+main {
   color: #374151;
   max-width: 65ch;
 }
-.prose [class~="lead"] {
+main [class~="lead"] {
   color: #4b5563;
   font-size: 1.25em;
   line-height: 1.6;
