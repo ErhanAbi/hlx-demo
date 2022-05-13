@@ -2,10 +2,18 @@ helix-sidekick ~ main {
   margin-top: 4rem;
 }
 
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 main > :where(div):not(:last-of-type) {
   margin-bottom: 1.5rem;
 }
 
+.image-block {
+  margin: 1.5em 0;
+}
 .image-block picture {
   display: inline-block;
 }
@@ -18,11 +26,9 @@ main > :where(div):not(:last-of-type) {
   margin-bottom: 0;
 }
 .image-block p:last-of-type {
-  display: inline-block;
-  margin-top: 0.25rem;
-  margin-bottom: 1.25em;
-  padding: 0 1rem;
-
+  display: block;
+  margin: 0.25em auto 1.25em;
+  padding: 0 clamp(3em, 6%, 15em);
   font-size: 14px;
   color: var(--color-gray-600);
   text-align: center;
