@@ -1,15 +1,3 @@
 helix-sidekick ~ main {
   margin-top: 4rem;
 }
-
-.image-with-caption p {
-  margin: 0;
-}
-.image-with-caption img {
-  margin-bottom: 0;
-}
-.image-with-caption p:last-child {
-  text-align: center;
-  color: var(--color-gray-600);
-  line-height: 1;
-}

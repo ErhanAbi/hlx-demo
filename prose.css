@@ -400,3 +400,13 @@
 .prose > :where(:last-child):not(:where([class~="not-prose"] *)) {
   margin-bottom: 0;
 }
+
+.prose :where(p:has(picture)) img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+.prose :where(p:has(picture)) {
+  text-align: center;
+  color: var(--color-gray-600);
+  line-height: 1;
+}
