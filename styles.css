@@ -1,3 +1,14 @@
+
+
+helix-sidekick ~ main {
+  margin-top: 4rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 main > :last-child {
   margin-bottom: 0;
 }
@@ -255,30 +266,13 @@ main hr {
   margin-top: 3em;
   margin-bottom: 3em;
 }
-main ul > li::before {
-  content: "";
-  position: absolute;
-  background-color: #d1d5db;
-  border-radius: 50%;
-  width: 0.375em;
-  height: 0.375em;
-  top: calc(0.875em - 0.1875em);
-  left: 0.25em;
-}
 main ul > li {
   position: relative;
-  padding-left: 1.75em;
-}
-main ol > li::before {
-  content: counter(list-item, var(--list-counter-style, decimal)) ".";
-  position: absolute;
-  font-weight: 400;
-  color: #6b7280;
-  left: 0;
+  padding-left: 0.5em;
 }
 main ol > li {
   position: relative;
-  padding-left: 1.75em;
+  padding-left: 0.5em;
 }
 main ol[type="1"] {
   --list-counter-style: decimal;
@@ -316,10 +310,6 @@ main a {
   text-decoration: underline;
   font-weight: 500;
 }
-main {
-  color: #374151;
-  max-width: 65ch;
-}
 main [class~="lead"] {
   color: #4b5563;
   font-size: 1.25em;
@@ -331,4 +321,16 @@ main [class~="lead"] {
 main img {
   width: 100%;
   border-radius: 0.5rem;
+}
+
+.image-with-caption p {
+  margin: 0;
+}
+.image-with-caption img {
+  margin-bottom: 0;
+}
+.image-with-caption p:last-child {
+  text-align: center;
+  color: var(--color-gray-600);
+  line-height: 1;
 }
