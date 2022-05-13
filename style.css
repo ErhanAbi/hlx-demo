@@ -21,6 +21,7 @@ main {
 .prose thead th:first-child {
   padding-left: 0;
 }
+
 .prose h4 + * {
   margin-top: 0;
 }
