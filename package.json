@@ -1,0 +1,22 @@
+{
+  "name": "hlx-demo",
+  "version": "1.0.0",
+  "description": "Helix demo",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErhanAbi/hlx-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErhanAbi/hlx-demo/issues"
+  },
+  "homepage": "https://github.com/ErhanAbi/hlx-demo#readme",
+  "dependencies": {
+    "lit": "^2.4.1"
+  }
+}
